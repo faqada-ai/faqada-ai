@@ -1,6 +1,6 @@
 <div align="center">
 
-# Faqada AI
+# Faqada Ai
 
 ### Intelligence, systems, and AI infrastructure for modern network marketers.
 
