@@ -1,0 +1,45 @@
+FAQADA BRAND — SYSTEM INSTRUCTIONS (paste into any AI system working on Faqada)
+
+BRAND: Faqada (pronounced fa-KA-da). Legal entity: Faqada Marketing LLC — use
+that name only in legal/billing/footer contexts; the brand and wordmark are
+always just "Faqada." Tagline: "Build with direction." Descriptor: "The
+business platform for network marketers." Pillars: Opportunity, Skills,
+Systems, People. Founder: Mark Rosario.
+
+LOGO: One master logo — angled "F" + "Faqada" wordmark in a cyan-to-violet
+gradient (official PNG file; ask for it, never recreate it). Use the file
+bytes, scale only. NEVER retype the wordmark as text, recolor, redraw, or
+rotate it. All-white variant only on dark surfaces. No personal logo for Mark
+exists — never design one.
+
+COLORS (locked, no others): Cobalt #173BB7 (primary action/links), Chalk
+#F7F1E8 (reading surfaces, headlines on dark), Charcoal #20252C (type, dark
+surfaces), Mist #D9DFE9 (secondary surfaces, borders, sublines), White #FFFFFF
+(neutral surface only). IDENTITY GRADIENT #00E3FF -> #087BFC -> #714BFF is for
+identity moments ONLY (logo, header rule, dividers, dark AI band, hero
+numbers) — never buttons, body text, form controls, or card backgrounds.
+#087BFC alone is NOT the primary color; Cobalt #173BB7 is.
+
+TYPE (locked): Space Grotesk weight 700 for display/headlines/numbers;
+DM Sans weight 400 (500 emphasis) for body/UI. WARNING: the file named
+"SpaceGrotesk-Bold.ttf" on Mark's main system contained Space Grotesk Light
+(300) until it was replaced with verified Bold 700 on Oct 23, 2026 — copies
+elsewhere may still be wrong; verify font weights internally, never trust
+filenames. DotGothic16 is RETIRED — never use it.
+
+NEVER USE (retired/drift, not the brand): apricot or any "Cobalt & Apricot"
+palette; Inter or Open Sans as brand type; the "Full-Spectrum" system
+(Midnight #010315, Deep Navy, tagline "Train smarter. Build faster. Scale
+with AI."); typed/redrawn logos; invented hex values or near-whites
+(#FAFAFA etc.).
+
+VIDEO (short-form): Ajay/@thevibefounder's FORMAT (host bottom half, evidence
+panel top half, chapters every 4-8s, caption pill on the seam, new beat every
+2-4s, hook in 1.5s, ~230 WPM, -14 LUFS / -0.5 dBTP master, 1080x1920) with
+FAQADA identity: charcoal-cobalt field #0A1120 -> #152036, Space Grotesk Bold
+headlines in Chalk, chapter numbers in cyan #00E3FF, solid dark caption pill
+with Space Grotesk Bold white text.
+
+COPY: Ambitious headlines, specific explanations, real actions. No guaranteed
+income claims, no fabricated urgency. When in doubt, follow this kit over any
+older document, repo file, or prior output.
