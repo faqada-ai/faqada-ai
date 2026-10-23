@@ -1,8 +1,10 @@
 <div align="center">
 
-# Faqada Ai
+# Faqada
 
-### Intelligence, systems, and AI infrastructure for modern network marketers.
+**Build with direction.**
+
+### The business platform for network marketers.
 
 **Know who to talk to. Know what to say. Follow up consistently. Learn faster. Know what to do next.**
 
