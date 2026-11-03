@@ -1,91 +1,94 @@
 <div align="center">
 
+<img src="assets/og-card.png" alt="Faqada Super Agent — Build with direction." width="100%">
+
 # Faqada
 
 **Build with direction.**
 
-### The business platform for network marketers.
+### The Faqada Super Agent — an AI workforce for businesses.
 
-**Know who to talk to. Know what to say. Follow up consistently. Learn faster. Know what to do next.**
-
-[Website](https://faqada.com) · [What we're building](#what-were-building) · [Architecture principles](#architecture-principles)
+[Website](https://faqada.com) · [What we're building](#what-were-building) · [How work starts](#how-work-starts)
 
 </div>
 
 ---
 
-## Why Faqada exists
+## Who we are
 
-Network marketers are often expected to become prospectors, salespeople, recruiters, content creators, follow-up specialists, and leaders at the same time — without the infrastructure that makes those jobs repeatable.
+Faqada started in 2012. In 2026 we refounded, relaunched, and rebuilt the company — incorporated April 1, 2026 as **Faqada Marketing LLC** — around one product: the **Faqada Super Agent**.
 
-**Faqada is being built to close that execution gap.**
+The Super Agent is an AI workforce that runs real functions inside a business: sales, marketing, operations, customer success, recruiting, and intelligence. It is not a chatbot, and it is not a single-purpose tool. It is a team of AI operators working on one core, under the owner's direction.
 
-Our goal is to create the intelligence, software, systems, training, and automation that increase a member's probability of success by helping them:
+Faqada runs on its own Super Agent first. Partner businesses run theirs the same way.
 
-- identify and prioritize the right prospects;
-- communicate with greater context and clarity;
-- follow up at the right time;
-- develop the skills that matter most;
-- understand performance instead of guessing;
-- duplicate successful behaviors across a team; and
-- receive a clear **next best action** when they need it.
+The platform is built for businesses as a whole — home services, field and door-to-door sales organizations, direct sales teams, and recruiting and staffing firms among them.
 
 ---
 
 ## What we're building
 
-| System | Purpose | Status |
-|---|---|---|
-| **Faqada Brain** | Intelligence and next-best-action layer across the member experience | In development |
-| **Closer** | Context-aware sales, follow-up, and objection-handling intelligence | In development |
-| **Agent Hub** | Specialized AI agents coordinated around specific growth jobs | In development |
-| **Creative Studio** | AI-assisted image, video, voice, and campaign creative workflows | In development |
-| **Command Center** | Turns signals, activity, and priorities into focused daily execution | In development |
-| **Prospects + Team** | Relationship, pipeline, and duplication intelligence | In development |
-| **Training** | Implementation-focused skill development, not passive content consumption | In active rebuild |
+Every Super Agent runs on one core:
 
-> Faqada is an actively evolving product. Most implementation source remains private while the platform, security model, business rules, and product architecture are being hardened.
+**Genome → Brain → Foundry → Nightly Loop → Command**
+
+- **Genome** — the business itself, captured once and kept current: identity, offers, voice, rules, and standards.
+- **Brain** — the reasoning layer that turns the Genome into decisions and next actions.
+- **Foundry** — where new operators, skills, and workflows are built and tested before they go to work.
+- **Nightly Loop** — the improvement cycle that reviews the day's work and upgrades the system.
+- **Command** — the owner's seat: priorities, approvals, and direction.
+
+On that core works a team of **13 AI operators**, each with a defined job and a defined place in the chain of command.
+
+### Six branches — all operational
+
+| Branch | What it runs |
+|---|---|
+| **Sales** | Pipeline, follow-up, and sales execution |
+| **Marketing & Content** | Content, campaigns, and demand generation |
+| **Operations** | The systems that keep the business moving day to day |
+| **Customer Success** | Onboarding, support, and retention |
+| **Recruiting & Teams** | Hiring, team building, and training |
+| **Intelligence & Compliance** | Research, monitoring, and guardrails |
 
 ---
 
-## The product thesis
+## How work starts
 
-The highest-leverage AI for a network marketer is not another chatbot.
+Every engagement starts with a **free Genome Scan** — a structured diagnosis of the business. Pricing is set after that diagnosis and scoped to the business itself. There are no fixed packages and no public price list.
 
-It is an **intelligence layer connected to the work** — one that understands context, recognizes what matters, helps the member take action, learns from outcomes, and improves the quality and consistency of execution over time.
-
-That is the system Faqada is building toward.
+For businesses that want the work done for them, Faqada's agency services — web, SEO and AEO, ads, social, video, AI chat and voice — run through the Super Agent, with the platform as the engine underneath.
 
 ---
 
-## Architecture principles
+## Partner builds
 
-**Human-directed**  
-AI should increase judgment and execution quality, not hide consequential actions from the member.
+The Super Agent is built out for partner businesses and communities, including **Mercy**, **Canopy Investment Group**, and **Hearns Hub** — and **Trade Voltage**, an AI trading platform built by equal partners Mark Rosario, Gerald Hearns, and Jerry Vaughan.
 
-**Next-best-action first**  
+---
+
+## Principles
+
+**Human-directed**
+AI increases judgment and execution quality. Consequential actions stay visible to the owner, and approval gates stay where they belong.
+
+**Next-best-action first**
 Information is useful. Knowing the most valuable thing to do next is better.
 
-**Context over generic prompting**  
-Useful intelligence should understand the member, prospect, business context, workflow state, and objective.
+**Context over generic prompting**
+Useful intelligence understands the business, the customer, the workflow state, and the objective — not just the last message.
 
-**Private by design**  
-Proprietary product logic, member information, provider credentials, and sensitive infrastructure stay private.
+**Private by design**
+Proprietary product logic, business data, provider credentials, and sensitive infrastructure stay private.
 
-**Provider-agnostic**  
-The product should be able to use the right model or service for the job instead of becoming permanently dependent on one provider.
+**Provider-agnostic**
+The system uses the right model or service for the job instead of depending permanently on one provider.
 
-**Auditable systems**  
-Important automation, economic events, and state transitions should be traceable and testable.
+**Auditable systems**
+Important automation, economic events, and state transitions are traceable and testable.
 
-**Measured by outcomes**  
-Features are evaluated by whether they improve prospecting, communication, follow-up, skill development, performance insight, duplication, and execution.
-
----
-
-## Areas we follow closely
-
-`AI agents` · `LLM systems` · `sales intelligence` · `agentic workflows` · `creative AI` · `model routing` · `automation` · `developer tooling` · `applied AI` · `growth systems`
+**Measured by outcomes**
+Features are evaluated by whether they improve execution — not by whether they demo well.
 
 ---
 
@@ -102,28 +105,18 @@ Faqada's GitHub presence is intentionally split:
 **Private**
 - production application source;
 - proprietary product logic and prompts;
-- member and business data;
+- customer and business data;
 - provider credentials and infrastructure secrets;
-- internal security, billing, compensation, and deployment implementation.
-
----
-
-## Current focus
-
-We are building the foundation for a platform where AI can help a member answer five questions continuously:
-
-1. **Who should I talk to?**
-2. **What should I say?**
-3. **When should I follow up?**
-4. **What should I improve?**
-5. **What should I do next?**
+- internal security, billing, and deployment implementation.
 
 ---
 
 <div align="center">
 
-### Building the intelligence layer for better execution.
+<img src="assets/faqada-3d-icon-square.png" alt="Faqada" width="72">
 
-**Faqada AI** · [faqada.com](https://faqada.com)
+### Build with direction.
+
+**Faqada** · [faqada.com](https://faqada.com)
 
 </div>

@@ -1,58 +1,54 @@
-# Faqada AI — Public Architecture Overview
+# Faqada — Public Architecture Overview
 
-This document describes Faqada's public product architecture at a conceptual level. It intentionally excludes proprietary implementation details, credentials, private schemas, internal prompts, provider economics, and member data.
+This document describes the Faqada Super Agent's architecture at a conceptual level. It intentionally excludes proprietary implementation details, credentials, private schemas, internal prompts, provider economics, and customer data.
 
-## 1. Intelligence layer
+## 1. One core
 
-**Faqada Brain** is the conceptual intelligence layer that connects member context, business context, activity, learning, and outcomes. Its job is not merely to answer questions. Its job is to help determine the **next best action**.
+Every Super Agent runs on the same core:
 
-The long-term loop is:
+**Genome → Brain → Foundry → Nightly Loop → Command**
 
-`Context → Signal → Reasoning → Recommendation → Member action → Outcome → Learning`
+- **Genome** — the business, captured as structured knowledge: identity, offers, voice, rules, standards, and history. Everything the system does is grounded in the Genome.
+- **Brain** — the reasoning layer. It reads the Genome and the current state of the business, and turns them into decisions, priorities, and next actions.
+- **Foundry** — the build layer. New operators, skills, and workflows are built and tested here before they are trusted with real work.
+- **Nightly Loop** — the improvement cycle. Each cycle reviews what the system did, what worked, and what did not — and upgrades the Genome, the operators, and the workflows accordingly.
+- **Command** — the owner's layer: priorities, approvals, and direction. The system proposes and executes; the owner directs.
 
-## 2. Specialized agent layer
+## 2. Operators
 
-Faqada uses specialized agents for narrowly defined jobs rather than treating one general-purpose assistant as the entire product.
+The work is done by a team of **13 AI operators**, each with a defined job, defined tools, and a defined place in the chain of command — not one general-purpose assistant stretched across everything. Operators are coordinated through the core, scoped to the context their job requires, and auditable in what they do.
 
-Examples include:
+## 3. Six branches
 
-- **Closer** — communication, follow-up, objection handling, and conversation support;
-- future agents for prospect research, coaching, content, team development, and operational tasks.
+The operators' work is organized into six branches, all operational:
 
-The **Agent Hub** is the coordination and discovery layer for these capabilities.
-
-## 3. Execution layer
-
-The product is organized around real work:
-
-- **Command Center** — priority and next-action surface;
-- **Prospects** — relationship and pipeline execution;
-- **Team** — duplication and leadership visibility;
-- **Creative Studio** — multi-modal creative workflows;
-- **Training** — implementation and skill development;
-- **Business** — membership, earnings, and operating state.
+- **Sales** — pipeline, follow-up, and sales execution;
+- **Marketing & Content** — content, campaigns, and demand generation;
+- **Operations** — the systems that keep the business moving day to day;
+- **Customer Success** — onboarding, support, and retention;
+- **Recruiting & Teams** — hiring, team building, and training;
+- **Intelligence & Compliance** — research, monitoring, and guardrails.
 
 ## 4. Context model
 
-Useful AI requires more than a prompt. Faqada's product direction assumes intelligence can be improved by combining only the context appropriate to the task, such as:
+Useful AI requires more than a prompt. The Super Agent combines only the context appropriate to the task, such as:
 
-- member goals and progress;
-- prospect or relationship state;
+- the business's Genome — offers, voice, rules, and standards;
+- customer and relationship state;
 - prior communication and follow-up state;
-- training progress and demonstrated skill gaps;
-- business and campaign context;
+- pipeline, campaign, and operating state;
 - recent actions, outcomes, and performance signals.
 
-Access to context should remain scoped, permissioned, and purpose-specific.
+Access to context remains scoped, permissioned, and purpose-specific.
 
 ## 5. Safety and control principles
 
-Faqada's public architecture direction favors:
+Faqada's architecture favors:
 
 - explicit authorization for consequential actions;
 - clear boundaries between recommendation and execution;
 - server-side protection of provider credentials;
-- owner-scoped/member-scoped data access;
+- owner-scoped data access;
 - auditable state transitions;
 - idempotent economic and automation events;
 - controlled provider access and spend;
@@ -60,24 +56,23 @@ Faqada's public architecture direction favors:
 
 ## 6. Model/provider strategy
 
-Faqada is designed conceptually as **provider-agnostic**. Different jobs may benefit from different models, modalities, latency profiles, or cost structures.
+The Super Agent is designed as **provider-agnostic**. Different jobs benefit from different models, modalities, latency profiles, and cost structures.
 
-The desired abstraction is:
+The abstraction is:
 
-`Faqada product intent → governed capability layer → approved model/provider → normalized result`
+`Business intent → governed capability layer → approved model/provider → normalized result`
 
-This allows the product to evolve as the AI ecosystem changes without making the member experience depend on a single vendor.
+This lets the system evolve as the AI ecosystem changes, without the business's operations depending on a single vendor.
 
 ## 7. Measurement
 
-The architecture is evaluated against practical member outcomes:
+The architecture is evaluated against practical business outcomes:
 
-- better prospect identification and prioritization;
+- faster, more consistent execution of routine work;
 - better communication quality;
-- more consistent follow-up;
-- faster skill development;
-- clearer performance insight;
-- more effective duplication;
+- follow-up that does not slip;
+- clearer performance insight for the owner;
+- skills and standards that compound instead of resetting;
 - higher-quality next-action guidance.
 
 ## 8. What is intentionally not public
@@ -89,8 +84,8 @@ This document does **not** publish:
 - internal schemas;
 - provider keys or private endpoints;
 - pricing or wholesale provider economics;
-- member data or examples derived from member data;
+- customer data or examples derived from customer data;
 - security-sensitive deployment details;
-- proprietary ranking, compensation, or attribution implementation.
+- proprietary ranking or attribution implementation.
 
 That boundary is deliberate.
